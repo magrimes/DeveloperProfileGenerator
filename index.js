@@ -37,7 +37,7 @@ inquirer
             <body>
               <h1><span style="color:${color}"> ${githubData.name}</span></h1>
             <hr>
-            <img src="${githubData.avatar_url} alt="profile-pic">
+            <img src="${githubData.avatar_url}" alt="profile-pic">
             <br>
             <p><h3>Bio:</h3> ${githubData.bio}
             <br>
