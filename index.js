@@ -1,7 +1,7 @@
 const fs = require('fs');
 const axios = require('axios');
 const inquirer = require('inquirer');
-const pdf = require('html-pdf');
+const electron = require('electron');
 
 inquirer
     .prompt([{
